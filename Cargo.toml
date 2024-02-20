@@ -1,0 +1,15 @@
+[package]
+name = "foundry"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.80"
+clap = "4.5.1"
+futures-util = "0.3.30"
+human_bytes = "0.4.3"
+indicatif = "0.17.8"
+reqwest = { version = "0.11.24", features = ["json", "stream"] }
+tokio = { version = "1.36.0", features = ["full"] }
